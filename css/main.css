@@ -42,7 +42,13 @@ body {
 
 .nav-logo {
 display: flex;
-height: 100px;
+height: 70px;
+}
+
+.img-header {
+	margin-top: 0;
+	width: 150px;
+	height: 60px;
 }
 
 .nav-menu {
