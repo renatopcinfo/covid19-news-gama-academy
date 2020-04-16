@@ -72,7 +72,7 @@ height: 70px;
 }
 
 .nav-menu li a:hover {
-	color: #DD1B1E;
+	color:black;
 }
 
 .title {
@@ -85,6 +85,12 @@ height: 70px;
 	margin: 0 auto;
 	position: relative;
 	width: 960px;	
+}
+.container p {
+	display: flex;
+	color: black;
+	margin-left: 10px;
+	font-weight: 600;
 }
 
 .catalogs-news-list {
@@ -118,5 +124,55 @@ height: 70px;
 	padding: 20px 0;
 	text-align: center;
 	width: 100%;
+}
+
+.see-more {
+	margin-top: 30px;
+	margin-bottom: 110px;
+}
+
+.see-more p {
+	font-size: 30px;	
+}
+
+.see-more ul {
+	display: flex;
+	flex-direction: column;	
+}
+
+.see-more li {
+	margin-top: 30px;
+	}
+
+	a:link
+{
+text-decoration:none;
+
+}
+
+.about {
+	margin-bottom: 10px
+}
+
+.about h3 {
+	display: flex;
+	font-size: 35px
+}
+
+.about p {
+	font-size: 20px
+}
+
+.about ul{
+	display: flex;
+	flex-direction: column;	
+	margin-top: 100px;
+	list-style: none;
+	font-size: 20px;		
+}
+
+.about ul li {
+display: flex;
+justify-content: center;
 }
 
