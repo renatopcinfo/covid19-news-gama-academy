@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/form.css" />
   <title>contato</title>
 </head>
 
@@ -34,31 +35,33 @@
     </nav>
   </header>
 
-  <main>
+  <main class="container">
+    <h2>Informe seu nome e email para contato</h2>
     <section class="form-box">
-      <form action="https://formspree.io/xaydvryn" method="POST">
-        <label>
+      <form class="form-content" action="https://formspree.io/xaydvryn" method="POST">
+        <label class="lbl">
           Nome:
-          <input type="text" name="name" placeholder="Digite seu nome">
+          <input class="input-name" type="text" name="name" placeholder="Digite seu nome">
         </label>
 
-        <label>
+        <label class="lbl">
           E-mail:
-          <input type="text" name="_replyto" placeholder="Digite seu email">
+          <input class="input-email" type="text" name="_replyto" placeholder="Digite seu email">
         </label>
 
-        <label>
+        <label class="lbl">
           Mensagem:
-          <textarea name="message" placeholder="Digite sua mensagem"></textarea>
+          <textarea class="input-message" name="message" placeholder="Digite sua mensagem"></textarea>
         </label>
-
-        <button type="submit">Send</button>
+        <div class="btn">
+          <button class="btn-submit" type="submit">Enviar</button>
+        </div>
       </form>
     </section>
   </main>
 
   <footer class="footer">
-    <span>Desenvolvido por Renato Rodrigues</span>
+    <span>&copy; Copyright 2020 - Desenvolvido por Renato Rodrigues</span>
   </footer>
 
 
